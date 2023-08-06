@@ -4,8 +4,10 @@ from PySide6.QtGui import QFont, QIcon
 from PySide6.QtCore import Qt
 import string
 import functions as f
+import lista_excel as ex
 
-p,d,c,a =f.leggi_file_e_struttura("lista.txt")
+# p,d,c,a =f.leggi_file_e_struttura("lista.txt")
+p,d,c,a =ex.utilizzo("Quote.xlsx")
 
 # Function to set the rounded style for buttons
 def set_rounded_button_style(button):
